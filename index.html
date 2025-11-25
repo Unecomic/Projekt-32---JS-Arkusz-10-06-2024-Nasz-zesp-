@@ -27,6 +27,7 @@
 <h5>
     <a href="Krzysztof.Dobromilski@firma.pl">Kontakt</a>
 </h5>
+</h5>
 </section>
 <section id="d2">
 <img src=" osoba2.jpg " alt="Kierownik logistyków" id="b">
@@ -36,32 +37,47 @@
 <p>telefon: 222333444</p>
 <h5>
     <a href="Joanna.Trojanowska@firma.pl">Kontakt</a>
+</h5>
 </section>
 
 <section id="d3">
 <img src="osoba3.jpg " alt="Kadry" id="a">
 <h2>Ewa Nowak</h2>
 <h3>Księgowość i kadry</h3>
-<p>Od lat finanse powierzamy niezawodnej Ewie. Twardą ręką trzyma kasę i dba o wszystkich pracowników
-telefon: 333444555</p>
+<p>Od lat finanse powierzamy niezawodnej Ewie. Twardą ręką trzyma kasę i dba o wszystkich pracowników</p>
 <p>telefon: 333444555</p>
 <h5>
     <a href="Ewa.Nowak@firma.pl">Kontakt</a>
+</h5>
 </section>
     </main>
-   <blockquote id="cytat1" onclick="funkcjaCytatu(1)">
+   <blockquote id="cytat1" onclick="Krzysztof()">
     <p>"Każdego dnia stawiam sobie nieosiągalne wyzwania i próbuję je wykonać"</p>
     <p>- Krzysztof</p>
   </blockquote>
 
-  <blockquote id="cytat2" onclick="funkcjaCytatu(2)">
+  <blockquote id="cytat2" onclick="Joanna()">
     <p>"Nie bój się porażek, im więcej ich rozwiążesz, tym szybciej osiągniesz cel"</p>
     <p>- Joanna</p>
   </blockquote>
 
-  <blockquote id="cytat3" onclick="funkcjaCytatu(3)">
+  <blockquote id="cytat3" onclick="Ewa()">
     <p>"Niezadowolony pracownik jest dla mnie źródłem nauki"</p>
     <p>- Ewa</p>
+    <script>
+   
+    const cytat1 = document.getElementById("Krzysztof").style="block";
+
+const cytat2 = document.getElementById("Joanna").style="block";
+const cytat3 = document.getElementById("Ewa").style="block";
+
+
+
+
+cytat1.addEventListener("click", pokazCytat2);
+cytat2.addEventListener("click", pokazCytat3);
+cytat3.addEventListener("click", pokazCytat1);
+</script>
   </blockquote>
 
     <footer>
@@ -72,3 +88,4 @@ telefon: 333444555</p>
     
 </body>
 </html>
+
