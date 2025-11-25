@@ -72,8 +72,18 @@ padding-bottom: 30px;
 padding-left: 0%;
 padding-right: 0%;
 font-style: italic;
-display: none;
+
 }
 h5:hover{
     background-color: lightseagreen;
+}
+
+#cytat1{
+    display: none;
+}
+#cytat2{
+    display: none;
+}
+#cytat3{
+    display: none;
 }
